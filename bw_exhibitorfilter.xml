@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="system" method="upgrade">
+    <name>BW - Exhibitor Filter</name>
+    <author>Barclay.works Ltd</author>
+    <creationDate>December 2025</creationDate>
+    <copyright>Copyright (C) 2025 Barclay.works Ltd. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later</license>
+    <authorEmail>info@barclay.works</authorEmail>
+    <authorUrl>https://barclay.works</authorUrl>
+    <version>0.9.0</version>
+    <description>PLG_SYSTEM_BW_EXHIBITORFILTER_DESCRIPTION</description>
+
+    <files>
+        <filename plugin="bw_exhibitorfilter">bw_exhibitorfilter.php</filename>
+        <folder>yootheme</folder>
+        <folder>language</folder>
+    </files>
+
+    <languages>
+        <language tag="en-GB">language/en-GB/plg_system_bw_exhibitorfilter.ini</language>
+        <language tag="en-GB">language/en-GB/plg_system_bw_exhibitorfilter.sys.ini</language>
+    </languages>
+
+    <!-- No configuration required - reads from menu item's native tag filter -->
+
+    <updateservers>
+        <server type="extension" name="Barclay.Works Updates">https://www.barclay.works/updates/plugins/updates.xml</server>
+    </updateservers>
+</extension>
